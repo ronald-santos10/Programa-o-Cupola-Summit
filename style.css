@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #101728;
+  --text-light: #ffffff;
+  --text-dark: #0c172c;
+  --card-bg: #fdfaf5;
+  
+  --theme-incorp: #004ecc;
+  --theme-vendas: #fe575a;
+  --theme-emp: #00b3a6;
+  --theme-aluguel: #1aa053;
+  --theme-solucoes: #ee6f00;
+  --theme-entrevista: #41444b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-light);
+  padding: 20px;
+}
+
+.summit-schedule {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* Tabs */
+.schedule-controls {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.schedule-tabs {
+  display: inline-flex;
+  background: #ffffff;
+  border-radius: 40px;
+  padding: 6px;
+  margin-bottom: 30px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #0c172c;
+  padding: 8px 24px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  background: #0c172c;
+  color: var(--text-light);
+}
+
+/* Legend Mobile Slider */
+.schedule-legend-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.legend-label {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.schedule-legend {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.schedule-legend::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.legend-item {
+  white-space: nowrap;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.legend-item.incorp { background: var(--theme-incorp); }
+.legend-item.vendas { background: var(--theme-vendas); }
+.legend-item.emp { background: var(--theme-emp); }
+.legend-item.aluguel { background: var(--theme-aluguel); }
+.legend-item.solucoes { background: var(--theme-solucoes); }
+
+/* Timeline Wrapper */
+.schedule-day {
+  display: none;
+}
+
+.schedule-day.active {
+  display: block;
+}
+
+.timeline-row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+/* Time Badge */
+.timeline-time {
+  width: 70px;
+  flex-shrink: 0;
+  padding-right: 15px;
+}
+
+.time-badge {
+  background: #fdfaf5;
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 12px; /* Reduzi de 50px para 12px conforme pedido */
+  width: 56px;
+  display: block;
+}
+
+/* Content Area */
+.timeline-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  flex-grow: 1;
+}
+
+/* Base Card */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  min-height: 100%;
+}
+
+/* Announcement */
+.card-announcement {
+  padding: 24px;
+}
+
+.card-announcement .stage-name, .card-normal .stage-name, .card-keynote .stage-name {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.card-announcement .event-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+/* Keynote */
+.card-keynote {
+  background: linear-gradient(90deg, #448937 0%, #305466 100%);
+  color: #fff;
+}
+
+.keynote-body {
+  padding: 24px;
+}
+
+.card-keynote .stage-name { color: rgba(255,255,255,0.8); margin-bottom: 0; }
+
+.keynote-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.keynote-speaker-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.speaker-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.speaker-photo.photo-normal { width: 36px; height: 36px; }
+.speaker-photo.photo-keynote { width: 60px; height: 60px; }
+
+.speaker-details .tag {
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 9px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.speaker-details .speaker-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.speaker-details .speaker-role {
+  font-size: 9px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.card-normal .speaker-details .speaker-name {
+  color: var(--text-dark);
+}
+
+.card-normal .speaker-details .speaker-role {
+  color: #666;
+}
+
+.keynote-title {
+  flex: 1;
+  font-size: 28px;
+  font-weight: 600;
+  border-left: 1px solid rgba(255,255,255,0.3);
+  padding-left: 30px;
+  line-height: 1.1;
+}
+
+/* Normal Card */
+.card-header {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header .stage-name {
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.theme-container {
+    display: flex;
+    gap: 5px;
+}
+
+.theme-tag {
+  border: 1px solid rgba(255,255,255,0.6);
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+.card-body {
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.card-body .event-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.normal-speaker-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Break */
+.timeline-break {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0;
+}
+
+.break-icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.break-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .schedule-legend-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    
+    .schedule-legend {
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .timeline-row {
+        flex-direction: column;
+    }
+    
+    .timeline-time {
+        margin-bottom: 10px;
+    }
+
+    .keynote-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .keynote-title {
+        border-left: none;
+        padding-left: 0;
+        font-size: 20px;
+    }
+}
