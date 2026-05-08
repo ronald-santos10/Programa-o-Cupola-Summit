@@ -65,6 +65,8 @@ function renderEventRow(event) {
     } else if (event.type === 'normal') {
         content = event.cards.map(card => {
             const themeMap = { 'incorporação': 'incorp', 'vendas': 'vendas', 'painel': 'painel', 'empreendedorismo': 'emp', 'aluguel': 'aluguel', 'soluções': 'solucoes' };
+            const speakerCount = card.speakers.length;
+            const speakerCountClass = speakerCount > 1 ? 'card-has-multiple-speakers' : 'card-has-single-speaker';
             
             // Find the first theme that exists in our themeMap
             let themeClass = 'incorp'; // default
@@ -77,7 +79,7 @@ function renderEventRow(event) {
             }
 
             return `
-            <div class="card card-normal theme-${themeClass}">
+            <div class="card card-normal theme-${themeClass} ${speakerCountClass}">
                 <div class="card-header" style="background-color: var(--theme-${themeClass})">
                     <span class="stage-name">${card.stage}</span>
                     <div class="theme-container">
@@ -104,7 +106,7 @@ function renderEventRow(event) {
     } else if (event.type === 'break') {
         const iconUrl = event.photo || 'https://cupolasummit.com.br/wp-content/uploads/2026/04/almoco-vetor.svg';
         content = `
-            <div class="card card-announcement">
+            <div class="card card-announcement card-break">
                 <div class="timeline-break" style="padding: 0;">
                     <div class="break-icon" style="background-color: var(--theme-incorp); border: none; overflow: hidden; width: 44px; height: 44px;">
                         <img src="${iconUrl}" alt="icon" style="width: 100%; height: 100%; object-fit: contain; padding: 10px;">
