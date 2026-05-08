@@ -1,33 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programação Cupola Summit 2026</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="summit-schedule">
-        <div class="schedule-controls">
-            <div class="schedule-tabs" id="tabs-container">
-                <!-- Tabs serão geradas dinamicamente -->
-            </div>
-            <div class="schedule-legend-container">
-                <span class="legend-label">TEMAS:</span>
-                <div class="schedule-legend">
-                    <span class="legend-item incorp">INCORPORAÇÃO</span>
-                    <span class="legend-item vendas">VENDAS</span>
-                    <span class="legend-item emp">EMPREENDEDORISMO</span>
-                    <span class="legend-item aluguel">ALUGUEL</span>
-                    <span class="legend-item solucoes">SOLUÇÕES</span>
-                </div>
-            </div>
+      <div class="schedule-controls">
+        <div class="schedule-tabs" id="tabs-container">
+          <!-- Tabs serão geradas dinamicamente -->
         </div>
 
-        <div id="schedule-content">
-            <!-- Conteúdo será gerado dinamicamente -->
+        <div class="schedule-legend-container">
+          <span class="legend-label">TEMAS:</span>
+
+          <div class="schedule-legend">
+            <span class="legend-item incorp">INCORPORAÇÃO</span>
+            <span class="legend-item vendas">VENDAS</span>
+            <span class="legend-item emp">EMPREENDEDORISMO</span>
+            <span class="legend-item aluguel">ALUGUEL</span>
+            <span class="legend-item solucoes">SOLUÇÕES</span>
+          </div>
         </div>
+      </div>
+
+      <div id="schedule-content">
+        <!-- Conteúdo será gerado dinamicamente -->
+      </div>
     </div>
+
     <script src="script.js"></script>
-</body>
+
+    <!-- AUTO HEIGHT IFRAME -->
+    <script>
+      function sendHeight() {
+        const height = document.documentElement.scrollHeight;
+
+        window.parent.postMessage(
+          {
+            type: "setHeight",
+            height,
+          },
+          "*",
+        );
+      }
+
+      window.addEventListener("load", sendHeight);
+      window.addEventListener("resize", sendHeight);
+
+      setInterval(sendHeight, 1000);
+    </script>
+  </body>
 </html>
