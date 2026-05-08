@@ -17,7 +17,7 @@
         "speakers": [
           {
             "name": "Rodrigo Werneck",
-            "role": "FUNDADOR E ESTRATEGISTA-CHEFE DA CUPOLA",
+            "role": "ESTRATEGISTA-CHEFE DA CUPOLA",
             "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/Rodrigo-Werneck-Keynote.webp",
             "tag": "KEYNOTE"
           }
@@ -37,7 +37,7 @@
             "speakers": [
               {
                 "name": "Leandro Ibagy",
-                "role": "IBAGY",
+                "role": "IBAGY IMÓVEIS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Leandro-Ibagy-Palestrante.webp"
               }
             ]
@@ -51,7 +51,7 @@
             "speakers": [
               {
                 "name": "Gustavo Feola",
-                "role": "CIA MULTIPLATAFORMA IMOBILIÁRIA",
+                "role": "GUSTAVO FEOLA NEGÓCIOS IMOBILIÁRIOS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Gustavo-Feola-Palestrante.webp"
               }
             ]
@@ -67,11 +67,11 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "EM DEFINIÇÃO",
+            "title": "Produtividade e IA na gestão de propriedade",
             "speakers": [
               {
                 "name": "Manoel Gonçalves",
-                "role": "SUPERLÓGICA",
+                "role": "SUPERLÓGICA IMOBI",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/manoel-goncalves-image-up.webp"
               }
             ]
@@ -81,7 +81,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "IA para imobiliárias de locação (ainda a definir o título da palestra)",
+            "title": "IA para imobiliárias de locação",
             "speakers": [
               {
                 "name": "Pedro Moura",
@@ -95,7 +95,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "EM DEFINIÇÃO",
+            "title": "A importância das vistorias no processo de locação",
             "speakers": [
               {
                 "name": "Geordani Maia",
@@ -129,10 +129,10 @@
             "themes": [
               "ALUGUEL"
             ],
-            "title": "Crescimento da operação de locação",
+            "title": "Locação em Escala: Como a maior imobiliária do sul cresceu 60% sua carteira unindo expansão e tecnologia",
             "speakers": [
               {
-                "name": "Mario Cezar",
+                "name": "Mário César Soares",
                 "role": "AUXILIADORA PREDIAL",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/mario-cezar-image.webp"
               }
@@ -217,7 +217,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "EM DEFINIÇÃO",
+            "title": "Conversei com o ChatGPT e ele atualizou meu CRM",
             "speakers": [
               {
                 "name": "Roberto Nascimento",
@@ -231,12 +231,12 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "EM DEFINIÇÃO",
+            "title": "Os 7 segundos que transformam sua locação",
             "speakers": [
               {
                 "name": "Thiago Grazionale",
                 "role": "GRAZON",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/thiago_grazionale_palestrante_2026_2x.webp"
               }
             ]
           },
@@ -245,7 +245,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "EM DEFINIÇÃO",
+            "title": "Compliance Imobiliário: a estrutura invisível do crescimento seguro",
             "speakers": [
               {
                 "name": "Fernando Barbur",
@@ -297,7 +297,7 @@
             "speakers": [
               {
                 "name": "José Thomaz",
-                "role": "GRUPO BEIRAMAR",
+                "role": "LAIS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Jose-Thomaz-Palestrante.webp"
               }
             ]
@@ -332,7 +332,7 @@
               {
                 "name": "Caio Belazzi",
                 "role": "ALPOP",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/caio_belazzi_palestrante_2026_2x.webp"
               }
             ]
           }
@@ -353,13 +353,13 @@
         ]
       },
       {
-        "time": "14:45",
+        "time": "15:45",
         "type": "normal",
         "cards": [
           {
             "stage": "PALCO IMOBI",
             "themes": [
-              "ALUGUEL"
+              "SOLUÇÕES"
             ],
             "title": "Gestão de encargos locatícios",
             "speakers": [
@@ -373,25 +373,25 @@
         ]
       },
       {
-        "time": "15:10",
+        "time": "15:50",
         "type": "normal",
         "cards": [
           {
-            "stage": "PLENÁRIA CUPOLA 2",
+            "stage": "PLENÁRIA CUPOLA 1",
             "themes": [
               "EMPREENDEDORISMO"
             ],
             "title": "Grupo Beiramar: o modelo de imobiliária que entrou no jogo do mercado financeiro",
             "speakers": [
               {
-                "name": "Pedro Fernandes",
+                "name": "Paulo Fernandes",
                 "role": "GRUPO BEIRAMAR",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Pedro-Fernandes-Palestrante.webp"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/paulo_fernandes_palestrante_2026_2x.webp"
               }
             ]
           },
           {
-            "stage": "PLENÁRIA CUPOLA 1",
+            "stage": "PLENÁRIA CUPOLA 2",
             "themes": [
               "VENDAS"
             ],
@@ -439,40 +439,45 @@
             "speakers": [
               {
                 "name": "Cristiano Fonseca",
-                "role": "CONSULTOR E ESTRATEGISTA",
+                "role": "ALTIVUS CONSULTORIA E NEGÓCIOS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/03/Cristiano-Fonseca-Palestrante.webp"
               }
             ]
           },
           {
-            "stage": "PALCO IMOBI",
+            "stage": "PLENÁRIA CUPOLA 2",
             "themes": [
-              "VENDAS",
+              "PAINEL",
               "EMPREENDEDORISMO"
             ],
             "title": "Futuro em redes: a visão de 3 das maiores operações de vendas no Brasil",
             "speakers": [
               {
-                "name": "Peixoto Accioly",
+                "name": "Peixoto Accyoli",
                 "role": "RE/MAX BRASIL",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Peixoto-Accyoli-Palestrante.webp"
               },
               {
                 "name": "Gabriela D'Azevedo",
-                "role": "SEM INFO",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "role": "QUINTOANDAR",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/gabriela_d_azevedo_palestrante_2026_2x.webp"
               },
               {
                 "name": "Matheus Kurtz",
                 "role": "AUXILIADORA PREDIAL",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/03/Matheus-Kurtz-Palestrante.webp"
+              },
+              {
+                "name": "Michel Prado",
+                "role": "CUPOLA | MEDIADOR",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/michel-prado-new.webp"
               }
             ]
           },
           {
             "stage": "PALCO IMOBI",
             "themes": [
-              "VENDAS"
+              "ALUGUEL"
             ],
             "title": "O método Raul Fulgêncio de atrair e fidelizar investidores",
             "speakers": [
@@ -486,15 +491,29 @@
         ]
       },
       {
-        "time": "17:15",
+        "time": "17:30",
         "type": "normal",
         "cards": [
+          {
+            "stage": "PLENÁRIA CUPOLA",
+            "themes": [
+              "SOLUÇÕES"
+            ],
+            "title": "Maturidade em um mercado de aventuras",
+            "speakers": [
+              {
+                "name": "Israel Brandão",
+                "role": "LOCARMAIS",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/israel-brandao-new.webp"
+              }
+            ]
+          },
           {
             "stage": "PALCO IMOBI",
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Inteligência Artificial na Apresentação de Imóveis.",
+            "title": "Um Decorado para cada Um: a IA que elevou em mais de 50% visitas, indicações e gerações de leads",
             "speakers": [
               {
                 "name": "Daniel Alves",
@@ -514,12 +533,12 @@
             "themes": [
               "ALUGUEL"
             ],
-            "title": "Muito além da Taxa de Administração: um ecossistema de serviços que multiplica o LTV na locação.",
+            "title": "Muito além da Taxa de Administração: um ecossistema de serviços que multiplica o LTV na locação",
             "speakers": [
               {
                 "name": "Jonathan Ramalho",
                 "role": "SONIA & RAMALHO IMÓVEIS",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Nome-Palestrante-Jonathan-Ramalho.webp"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/jonathan-ramalho-image.webp"
               }
             ]
           },
@@ -542,7 +561,7 @@
             "themes": [
               "INCORPORAÇÃO"
             ],
-            "title": "Como o marketing de influência impulsiona o crescimento da sua Incorporadora",
+            "title": "Como o marketing de influência impulsiona o crescimento da Due Empreendimentos",
             "speakers": [
               {
                 "name": "Rafael Zulu",
@@ -581,14 +600,14 @@
         "speakers": [
           {
             "name": "Michel Alcoforado",
-            "role": "ANTROPÓLOGO E CONSULTOR",
+            "role": "ANTROPÓLOGO E ESCRITOR",
             "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Michel-Alcoforado-Keynote.webp",
             "tag": "KEYNOTE"
           }
         ]
       },
       {
-        "time": "19:10",
+        "time": "19:10 - 21:40",
         "type": "break",
         "title": "Encerramento e Happy Hour",
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/encerramento-vetor.svg"
@@ -600,13 +619,13 @@
     "name": "Dia 2 (22/05 SEX)",
     "events": [
       {
-        "time": "09:10",
+        "time": "08:50",
         "type": "announcement",
         "stage": "PLENÁRIA CUPOLA",
         "title": "DIA 02 - Abertura Oficial CUPOLA Summit 5ª Edição"
       },
       {
-        "time": "09:40",
+        "time": "09:00",
         "type": "keynote",
         "stage": "PLENÁRIA CUPOLA",
         "title": "Seleção de talentos: as lições do maior recrutador do Brasil",
@@ -645,7 +664,7 @@
             "title": "Como a Urban Company gerou um VGV de um R$ 1 bi em 5 anos",
             "speakers": [
               {
-                "name": "Babiton Spindola",
+                "name": "Babiton Espindola",
                 "role": "URBAN COMPANY",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/babiton-spindola-image.webp"
               }
@@ -658,11 +677,6 @@
             ],
             "title": "Programas de habitação social e o impacto da inadimplência na incorporação",
             "speakers": [
-              {
-                "name": "Renata Firpo",
-                "role": "COLUNISTA VEJA - REAL ESTATE",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Renata-Firpo-Palestrante.webp"
-              },
               {
                 "name": "Celso Petrucci",
                 "role": "SECOVI-SP",
@@ -677,13 +691,18 @@
                 "name": "Odair Mofato",
                 "role": "LÍQUID AI",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Odair-Mofato-Palestrante.webp"
+              },
+              {
+                "name": "Renata Firpo",
+                "role": "VEJA - REAL ESTATE | MEDIADORA",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Renata-Firpo-Palestrante.webp"
               }
             ]
           }
         ]
       },
       {
-        "time": "10:35",
+        "time": "10:30",
         "type": "normal",
         "cards": [
           {
@@ -691,7 +710,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A Reforma Tributária mudou as regras do jogo. Sua imobiliária está pronta?",
+            "title": "A Reforma Tributária mudou as regras do jogo imobiliário e agora?",
             "speakers": [
               {
                 "name": "Maria Fernanda Marques",
@@ -708,7 +727,7 @@
             "title": "Como transformar a sua imobiliária e crescer com eficiência",
             "speakers": [
               {
-                "name": "Maicon Andreatta",
+                "name": "Guilherme Lindner",
                 "role": "APRESENTA.ME",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/maicon-adreatta-image.webp"
               }
@@ -719,7 +738,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Como a terceirização da área de manutenção pode melhorar a satisfação dos clientes e entregar mais eficiência para as imobiliárias",
+            "title": "Manutenção sob controle: o que separa imobiliárias organizadas de quem vive apagando incêndio",
             "speakers": [
               {
                 "name": "Filipe Ferreira",
@@ -731,20 +750,20 @@
         ]
       },
       {
-        "time": "10:40",
+        "time": "10:35",
         "type": "normal",
         "cards": [
           {
             "stage": "PLENÁRIA CUPOLA 1",
             "themes": [
-              "ALUGUEL"
+              "VENDAS"
             ],
-            "title": "Como alcançar a excelência operacional numa operação de Short Stay: case Omar do Rio",
+            "title": "Porque a Reforma Tributária muda a forma de captar, precificar e vender imóveis",
             "speakers": [
               {
-                "name": "Omar Farhat",
-                "role": "OMAR DO RIO",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Omar-Farhat-Palestrante.webp"
+                "name": "Arthur Thomazi",
+                "role": "C2T ADV",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/artgur-thomazi-image.webp"
               }
             ]
           },
@@ -753,11 +772,11 @@
             "themes": [
               "INCORPORAÇÃO"
             ],
-            "title": "Qual é a sua proposta? Como a MBigucci criou um time comprometido com a solução e não com o problema",
+            "title": "Chega do \"SEMPRE FOI ASSIM''",
             "speakers": [
               {
                 "name": "Roberta Bigucci",
-                "role": "MBIGUCCI",
+                "role": "MBIGUCCI CONSTRUTORA",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Roberta-Bigucci-Palestrante.webp"
               }
             ]
@@ -770,7 +789,7 @@
             "title": "Metodologia 831: as rotinas de contato com o cliente que geram vendas recorrrentes",
             "speakers": [
               {
-                "name": "Pablo Pinuelo",
+                "name": "Pablo Piñuelo",
                 "role": "CORDIER INVESTIMENTOS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/pablo-pinuelo-image.webp"
               }
@@ -787,11 +806,11 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Imobiliária 3.0: do atendimento à gestão inteligente na nova era do mercado imobiliário",
+            "title": "O futuro do atendimento no mercado imobiliário já chegou!",
             "speakers": [
               {
                 "name": "Diego Bonastre",
-                "role": "LASTRO",
+                "role": "LAIS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/diego-bonastre-image.webp"
               }
             ]
@@ -801,11 +820,11 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Gestão de locação, garantias locatícias...",
+            "title": "Pontos de atenção na gestão de locação",
             "speakers": [
               {
                 "name": "Gustavo Frattini",
-                "role": "COMPAGNO",
+                "role": "COMPAGNO SEGUROS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/gustavo-frattini-image.webp"
               }
             ]
@@ -813,14 +832,14 @@
         ]
       },
       {
-        "time": "11:15",
+        "time": "11:10",
         "type": "keynote",
         "stage": "PLENÁRIA CUPOLA",
-        "title": "Como ficam suas metas em tempos de mudanças profundas na Meta",
+        "title": "Marketing Integrado: mais negócios e metas batidas unindo o digital e o presencial",
         "speakers": [
           {
             "name": "Camila Renaux",
-            "role": "ESPECIALISTA EM MARKETING DIGITAL ESTRATÉGICO",
+            "role": "ESPECIALISTA EM MARKETING DIGITAL E ESTRATÉGICO",
             "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/03/Camila-Renaux-Keynote.webp",
             "tag": "KEYNOTE"
           }
@@ -839,14 +858,14 @@
           {
             "stage": "PLENÁRIA CUPOLA 1",
             "themes": [
-              "ALUGUEL"
+              "EMPREENDEDORISMO"
             ],
-            "title": "Porque a Reforma Tributária muda a forma de captar, precificar e vender imóveis",
+            "title": "Reposicionando o site imobiliário na era das IAs",
             "speakers": [
               {
-                "name": "Arthur Thomazi",
-                "role": "C2T ADVOGADOS",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/artgur-thomazi-image.webp"
+                "name": "Camila Gasparini",
+                "role": "CUPOLA",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/camila-gasparini-image.webp"
               }
             ]
           },
@@ -869,7 +888,7 @@
             "themes": [
               "VENDAS"
             ],
-            "title": "Digital turbinado: como a Moni Imóveis integra a marca da imobiliária a um time de corretores infuenciadores",
+            "title": "Digital turbinado: como a Moni Imóveis integra a marca da imobilliária a um time de corretores infuenciadores",
             "speakers": [
               {
                 "name": "Ariane Palaoro",
@@ -889,12 +908,12 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Como expandir a operação e reter corretores de forma segura.",
+            "title": "A pressão invisível da operação imobiliária",
             "speakers": [
               {
-                "name": "Bruno Assumpção Costa",
-                "role": "C2T",
-                "photo": ""
+                "name": "Rodrigo Roncaglio",
+                "role": "GUIA DA ALMA",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/Rodrigo-Roncaglio.webp"
               }
             ]
           },
@@ -903,12 +922,12 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A pressão invisível da operação imobiliária - impactos da saúde mental nos resultados e operação.",
+            "title": "Partnership no imobiliário: Expansão da operação e retenção de corretores",
             "speakers": [
               {
-                "name": "Rodrigo Roncaglio",
-                "role": "GUIA DA ALMA",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "name": "Bruno Costa",
+                "role": "C2T ADV",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/Bruno-Assumpcao-Costa.webp"
               }
             ]
           },
@@ -917,32 +936,32 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A DEFINIR",
+            "title": "E se o crédito olhasse para você, e não só para o seu score?",
             "speakers": [
               {
-                "name": "Isabela Alves Seixas",
+                "name": "Dilmar Gottchefki Júnior",
                 "role": "VIACREDI",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/dilmar-gottchefki-new.webp"
               }
             ]
           }
         ]
       },
       {
-        "time": "14:10",
+        "time": "14:15",
         "type": "normal",
         "cards": [
           {
             "stage": "PLENÁRIA CUPOLA 1",
             "themes": [
-              "EMPREENDEDORISMO"
+              "ALUGUEL"
             ],
-            "title": "Reposicionando o site imobiliário na era das IAs",
+            "title": "Como alcançar a excelência operacional numa operação de Short Stay: case Omar do Rio",
             "speakers": [
               {
-                "name": "Camila Gasparini",
-                "role": "CUPOLA",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/camila-gasparini-image.webp"
+                "name": "Omar Farhat",
+                "role": "OMAR DO RIO",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Omar-Farhat-Palestrante.webp"
               }
             ]
           },
@@ -965,19 +984,19 @@
             "themes": [
               "EMPREENDEDORISMO"
             ],
-            "title": "A definir",
+            "title": "O futuro da IA: você está pronto para IAnizar a sua empresa?",
             "speakers": [
               {
-                "name": "A definir",
-                "role": "A DEFINIR",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "name": "Ricardo Souza",
+                "role": "BÜ",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/ricardo_souza_palestrante_2026_2x.webp"
               }
             ]
           }
         ]
       },
       {
-        "time": "14:15",
+        "time": "14:45",
         "type": "normal",
         "cards": [
           {
@@ -1005,12 +1024,12 @@
             "themes": [
               "VENDAS"
             ],
-            "title": "A DEFINIR",
+            "title": "Do Algoritmo ao próximo imóvel: como transformar a presença nas redes sociais em vendas",
             "speakers": [
               {
                 "name": "Bruno Cassarolla",
                 "role": "IMOBILIÁRIA APARTAMENTOS RIO",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/bruno_cassarolla_palestrante_2026_2x.webp"
               }
             ]
           },
@@ -1023,7 +1042,7 @@
             "speakers": [
               {
                 "name": "Katsuren Machado",
-                "role": "LEGAL CX",
+                "role": "ARBITRALIS",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/katsuren-machado-image.webp"
               }
             ]
@@ -1051,7 +1070,7 @@
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/almoco-vetor.svg"
       },
       {
-        "time": "16:10",
+        "time": "16:20",
         "type": "normal",
         "cards": [
           {
@@ -1063,8 +1082,8 @@
             "speakers": [
               {
                 "name": "Pedro Sordi",
-                "role": "SANTA MARIA IMÓVEIS",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "role": "SM INCORPORADORA",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/pedro_sordi_palestrante_2026_2x.webp"
               }
             ]
           },
@@ -1077,7 +1096,7 @@
             "speakers": [
               {
                 "name": "Ernani Assis",
-                "role": "SIIMGROUP BRASIL REMAX",
+                "role": "SIIMGROUP RE/MAX BRASIL",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Ernani-Assis-Palestrante.webp"
               }
             ]
@@ -1087,7 +1106,7 @@
             "themes": [
               "ALUGUEL"
             ],
-            "title": "O ano do teste: sua operação de aluguel está pronta para as mudanças da Reforma Tributária?",
+            "title": "Do aluguel ao imposto: o jogo da Reforma Tributária que pode destruir sua rentabilidade",
             "speakers": [
               {
                 "name": "Franciele Rocha",
@@ -1099,7 +1118,7 @@
         ]
       },
       {
-        "time": "16:20",
+        "time": "16:50",
         "type": "normal",
         "cards": [
           {
@@ -1119,7 +1138,7 @@
         ]
       },
       {
-        "time": "17:15",
+        "time": "16:55",
         "type": "normal",
         "cards": [
           {
@@ -1127,12 +1146,12 @@
             "themes": [
               "EMPREENDEDORISMO"
             ],
-            "title": "Os bastidores da criação de assistentes de IA pelo Nossa Imobi",
+            "title": "Como mais de 20 sistemas de IA mudaram o funcionamento e custos de uma imobiliária, na prática",
             "speakers": [
               {
                 "name": "Diogo Souza Gomes",
-                "role": "NOSSA IMOBI IMÓVEIS",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/no-photo-vetor.svg"
+                "role": "SOUZA GOMES IMÓVEIS",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/Diogo-Souza-Gomes.webp"
               }
             ]
           },
@@ -1141,11 +1160,11 @@
             "themes": [
               "VENDAS"
             ],
-            "title": "Processos e tecnologias que reduzem o curva de resultado de novos corretores",
+            "title": "Missão K -90: A metodologia que potencializa o resultado do Corretor Imobiliário",
             "speakers": [
               {
                 "name": "Felipe Ricoy",
-                "role": "NETIMOB",
+                "role": "MYSIDE",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Felipe-Ricoy-Palestrante.webp"
               }
             ]
@@ -1155,12 +1174,70 @@
             "themes": [
               "EMPREENDEDORISMO"
             ],
-            "title": "CEO Position: como a humanização da sua marca pode alavancar vendas.",
+            "title": "CEO Position: como a humanização da sua marca pode alavancar vendas",
             "speakers": [
               {
                 "name": "Luciana Lima",
-                "role": "ELEMENTO AGÊNCIA COMUNICAÇÃO",
+                "role": "ELEMENTAR COMUNICAÇÃO",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/luciana-lima-image.webp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": "17:05",
+        "type": "normal",
+        "cards": [
+          {
+            "stage": "PLENÁRIA CUPOLA 1",
+            "themes": [
+              "VENDAS"
+            ],
+            "title": "A construção da cultura da campeã nacional de vendas da MRV",
+            "speakers": [
+              {
+                "name": "Rayan Chemite",
+                "role": "AFINCO IMÓVEIS",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/rayan-chemite-new.webp"
+              }
+            ]
+          },
+          {
+            "stage": "PLENÁRIA CUPOLA 2",
+            "themes": [
+              "EMPREENDEDORISMO"
+            ],
+            "title": "Painel de Internacionalização",
+            "speakers": [
+              {
+                "name": "Jean Michel Galiano",
+                "role": "APOLAR",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/jean-michel-galiano-new.webp"
+              },
+              {
+                "name": "Lilian Borenstein",
+                "role": "ONE LIST",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/lilian-borenstein-new.webp"
+              },
+              {
+                "name": "Michel Prado",
+                "role": "CUPOLA | MEDIADOR",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/michel-prado-new.webp"
+              }
+            ]
+          },
+          {
+            "stage": "PALCO IMOBI",
+            "themes": [
+              "ALUGUEL"
+            ],
+            "title": "50 mil com 15 locações: o modelo que escala",
+            "speakers": [
+              {
+                "name": "Israel Brandão",
+                "role": "LOCARMAIS",
+                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/israel-brandao-new.webp"
               }
             ]
           }
@@ -1174,14 +1251,14 @@
         "speakers": [
           {
             "name": "Zé Noronha",
-            "role": "ESTRATEGISTA EM VENDAS, CONSULTOR, MENTOR E LIDERANÇA",
+            "role": "ESPECIALISTA EM VENDAS CONSULTIVAS, NEGOCIAÇÃO E LIDERANÇA",
             "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Ze-Noronha-Keynote.webp",
             "tag": "KEYNOTE"
           }
         ]
       },
       {
-        "time": "18:25",
+        "time": "18:35",
         "type": "break",
         "title": "Encerramento",
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/encerramento-vetor.svg"

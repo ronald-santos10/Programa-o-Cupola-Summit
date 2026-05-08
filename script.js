@@ -1,6 +1,6 @@
 async function initSchedule() {
     try {
-        const response = await fetch('https://gist.githubusercontent.com/ronald-santos10/c25ae30bfe1a5becec54d2500a12675b/raw/48f7a3d31afe48dce585c6b7b24f6d3cd251c36f/gistfile1.txt');
+        const response = await fetch('data.json');
         const data = await response.json();
         
         renderTabs(data);
@@ -64,7 +64,7 @@ function renderEventRow(event) {
         `;
     } else if (event.type === 'normal') {
         content = event.cards.map(card => {
-            const themeMap = { 'incorporação': 'incorp', 'vendas': 'vendas', 'empreendedorismo': 'emp', 'aluguel': 'aluguel', 'soluções': 'solucoes' };
+            const themeMap = { 'incorporação': 'incorp', 'vendas': 'vendas', 'painel': 'painel', 'empreendedorismo': 'emp', 'aluguel': 'aluguel', 'soluções': 'solucoes' };
             
             // Find the first theme that exists in our themeMap
             let themeClass = 'incorp'; // default
