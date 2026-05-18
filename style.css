@@ -263,6 +263,24 @@ body {
   padding: 20px;
 }
 
+.announcement-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.card-announcement:not(.card-break) .announcement-content .event-title {
+  padding: 0;
+}
+
+.announcement-photo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 /* Keynote */
 .card-keynote {
   background: linear-gradient(90deg, #448937 0%, #305466 100%);
@@ -586,6 +604,15 @@ body {
     line-height: 1.2;
     padding: 28px 18px 34px;
     overflow-wrap: anywhere;
+  }
+
+  .announcement-content {
+    gap: 14px;
+    padding: 28px 18px 34px;
+  }
+
+  .card-announcement .announcement-content .event-title {
+    padding: 0;
   }
 
   .card-body {

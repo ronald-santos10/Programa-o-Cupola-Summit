@@ -4,13 +4,13 @@
     "name": "Dia 1 (21/05 QUI)",
     "events": [
       {
-        "time": "09:10",
+        "time": "09:00",
         "type": "announcement",
         "stage": "PLENÁRIA CUPOLA",
         "title": "DIA 01 - Abertura Oficial CUPOLA Summit 5ª Edição"
       },
       {
-        "time": "09:40",
+        "time": "09:30",
         "type": "keynote",
         "stage": "PLENÁRIA CUPOLA",
         "title": "Sozinhos",
@@ -95,7 +95,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A importância das vistorias no processo de locação",
+            "title": "Atendimento humanizado numa era de IA",
             "speakers": [
               {
                 "name": "Geordani Maia",
@@ -156,12 +156,19 @@
       },
       {
         "time": "11:50",
+        "type": "announcement",
+        "stage": "PLENÁRIA CUPOLA",
+        "title": "Reconhecimento Clube CredAluga",
+        "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/logo-credaluga.svg"
+      },
+      {
+        "time": "12:10",
         "type": "break",
         "title": "Pausa para almoço",
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/almoco-vetor.svg"
       },
       {
-        "time": "13:35",
+        "time": "13:40",
         "type": "normal",
         "cards": [
           {
@@ -209,7 +216,7 @@
         ]
       },
       {
-        "time": "14:05",
+        "time": "14:10",
         "type": "normal",
         "cards": [
           {
@@ -257,7 +264,7 @@
         ]
       },
       {
-        "time": "14:10",
+        "time": "14:15",
         "type": "normal",
         "cards": [
           {
@@ -305,7 +312,7 @@
         ]
       },
       {
-        "time": "14:40",
+        "time": "14:45",
         "type": "normal",
         "cards": [
           {
@@ -313,7 +320,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Como ganhar eficiência no mercado imobiliário.",
+            "title": "Como ganhar eficiência no mercado imobiliário",
             "speakers": [
               {
                 "name": "Cesar Braghirolli",
@@ -339,7 +346,7 @@
         ]
       },
       {
-        "time": "14:45",
+        "time": "14:50",
         "type": "keynote",
         "stage": "PLENÁRIA CUPOLA",
         "title": "De quem é o mimimi? Como assumir a responsabilidade de liderar diferentes gerações",
@@ -353,7 +360,7 @@
         ]
       },
       {
-        "time": "15:45",
+        "time": "15:50",
         "type": "normal",
         "cards": [
           {
@@ -361,7 +368,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Gestão de encargos locatícios",
+            "title": "Encargos locatícios: de problema a oportunidade",
             "speakers": [
               {
                 "name": "Arthur Caetano",
@@ -373,7 +380,7 @@
         ]
       },
       {
-        "time": "15:50",
+        "time": "15:55",
         "type": "normal",
         "cards": [
           {
@@ -421,13 +428,13 @@
         ]
       },
       {
-        "time": "16:20",
+        "time": "16:25",
         "type": "break",
         "title": "Intervalo | 40 minutos",
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/almoco-vetor.svg"
       },
       {
-        "time": "17:00",
+        "time": "17:05",
         "type": "normal",
         "cards": [
           {
@@ -491,7 +498,7 @@
         ]
       },
       {
-        "time": "17:30",
+        "time": "17:35",
         "type": "normal",
         "cards": [
           {
@@ -513,7 +520,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Um Decorado para cada Um: a IA que elevou em mais de 50% visitas, indicações e gerações de leads",
+            "title": "Um decorado para cada um: a IA que elevou em mais de 50% visitas, indicações e gerações de leads",
             "speakers": [
               {
                 "name": "Daniel Alves",
@@ -525,7 +532,7 @@
         ]
       },
       {
-        "time": "17:35",
+        "time": "17:40",
         "type": "normal",
         "cards": [
           {
@@ -550,7 +557,7 @@
             "title": "A nova regra do jogo no mercado imobiliário",
             "speakers": [
               {
-                "name": "Peixoto Accioly",
+                "name": "Peixoto Accyoli",
                 "role": "RE/MAX BRASIL",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/02/Peixoto-Accyoli-Palestrante.webp"
               }
@@ -561,11 +568,11 @@
             "themes": [
               "INCORPORAÇÃO"
             ],
-            "title": "Como o marketing de influência impulsiona o crescimento da Due Empreendimentos",
+            "title": "Como o marketing de influência impulsiona o crescimento da Due Incorporadora",
             "speakers": [
               {
                 "name": "Rafael Zulu",
-                "role": "DUE INCORPORAÇÃO",
+                "role": "DUE INCORPORADORA",
                 "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/rafael-zulu-image.webp"
               }
             ]
@@ -573,7 +580,7 @@
         ]
       },
       {
-        "time": "18:05",
+        "time": "18:10",
         "type": "normal",
         "cards": [
           {
@@ -581,7 +588,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Clube CredAluga - Vantagem é só o começo",
+            "title": "CredAluga do seu jeito: conheça novos formatos de contratação flexível para aluguel",
             "speakers": [
               {
                 "name": "Guilherme Blumer",
@@ -593,7 +600,7 @@
         ]
       },
       {
-        "time": "18:10",
+        "time": "18:15",
         "type": "keynote",
         "stage": "PLENÁRIA CUPOLA",
         "title": "Coisa de Rico no Mercado Imobiliário",
@@ -607,9 +614,9 @@
         ]
       },
       {
-        "time": "19:10 - 21:40",
+        "time": "19:15 - 21:45",
         "type": "break",
-        "title": "Encerramento e Happy Hour",
+        "title": "Happy Hour",
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/encerramento-vetor.svg"
       }
     ]
@@ -710,7 +717,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A Reforma Tributária mudou as regras do jogo imobiliário e agora?",
+            "title": "A Reforma Tributária mudou as regras do jogo imobiliário. E agora?",
             "speakers": [
               {
                 "name": "Maria Fernanda Marques",
@@ -772,7 +779,7 @@
             "themes": [
               "INCORPORAÇÃO"
             ],
-            "title": "Chega do \"SEMPRE FOI ASSIM''",
+            "title": "Chega do “SEMPRE FOI ASSIM”",
             "speakers": [
               {
                 "name": "Roberta Bigucci",
@@ -786,7 +793,7 @@
             "themes": [
               "VENDAS"
             ],
-            "title": "Metodologia 831: as rotinas de contato com o cliente que geram vendas recorrrentes",
+            "title": "Metodologia 831: as rotinas de contato com o cliente que geram vendas recorrentes",
             "speakers": [
               {
                 "name": "Pablo Piñuelo",
@@ -820,7 +827,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "Pontos de atenção na gestão de locação",
+            "title": "Como sua imobiliária ganha (ou perde) com seguros hoje?",
             "speakers": [
               {
                 "name": "Gustavo Frattini",
@@ -888,7 +895,7 @@
             "themes": [
               "VENDAS"
             ],
-            "title": "Digital turbinado: como a Moni Imóveis integra a marca da imobilliária a um time de corretores infuenciadores",
+            "title": "Digital turbinado: como a Moni Imóveis integra a marca da imobiliária a um time de corretores influenciadores",
             "speakers": [
               {
                 "name": "Ariane Palaoro",
@@ -908,7 +915,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "A pressão invisível da operação imobiliária",
+            "title": "3 Pressões que reduzem performance na Imobiliária de Locação",
             "speakers": [
               {
                 "name": "Rodrigo Roncaglio",
@@ -939,9 +946,9 @@
             "title": "E se o crédito olhasse para você, e não só para o seu score?",
             "speakers": [
               {
-                "name": "Dilmar Gottchefki Júnior",
+                "name": "Dilmar Gottchefski Júnior",
                 "role": "VIACREDI",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/dilmar-gottchefki-new.webp"
+                "photo": "https://placehold.co/400x400?text=Foto"
               }
             ]
           }
@@ -1070,7 +1077,7 @@
         "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/04/almoco-vetor.svg"
       },
       {
-        "time": "16:20",
+        "time": "16:00",
         "type": "normal",
         "cards": [
           {
@@ -1118,7 +1125,7 @@
         ]
       },
       {
-        "time": "16:50",
+        "time": "16:30",
         "type": "normal",
         "cards": [
           {
@@ -1126,7 +1133,7 @@
             "themes": [
               "SOLUÇÕES"
             ],
-            "title": "O ponto cego o mercado imobiliário",
+            "title": "O ponto cego do mercado imobiliário",
             "speakers": [
               {
                 "name": "Jéssica do Nascimento Cardoso",
@@ -1138,7 +1145,7 @@
         ]
       },
       {
-        "time": "16:55",
+        "time": "16:35",
         "type": "normal",
         "cards": [
           {
@@ -1205,30 +1212,6 @@
           },
           {
             "stage": "PLENÁRIA CUPOLA 2",
-            "themes": [
-              "EMPREENDEDORISMO"
-            ],
-            "title": "Painel de Internacionalização",
-            "speakers": [
-              {
-                "name": "Jean Michel Galiano",
-                "role": "APOLAR",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/jean-michel-galiano-new.webp"
-              },
-              {
-                "name": "Lilian Borenstein",
-                "role": "ONE LIST",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/lilian-borenstein-new.webp"
-              },
-              {
-                "name": "Michel Prado",
-                "role": "CUPOLA | MEDIADOR",
-                "photo": "https://cupolasummit.com.br/wp-content/uploads/2026/05/michel-prado-new.webp"
-              }
-            ]
-          },
-          {
-            "stage": "PALCO IMOBI",
             "themes": [
               "ALUGUEL"
             ],

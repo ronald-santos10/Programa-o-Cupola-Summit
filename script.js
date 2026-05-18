@@ -34,10 +34,17 @@ function renderEventRow(event) {
     let content = '';
     
     if (event.type === 'announcement') {
+        const announcementPhoto = event.photo
+            ? `<img src="${event.photo}" class="announcement-photo" alt="${event.title}">`
+            : '';
+
         content = `
             <div class="card card-announcement">
                 <div class="stage-name">${event.stage}</div>
-                <div class="event-title">${event.title}</div>
+                <div class="announcement-content">
+                    ${announcementPhoto}
+                    <div class="event-title">${event.title}</div>
+                </div>
             </div>
         `;
     } else if (event.type === 'keynote') {
