@@ -1,0 +1,392 @@
+<style>
+  .experiencias-component {
+    --azul: #004fbe;
+    --azul-escuro: #0c172c;
+    --branco-amarelado: #faf8ec;
+
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--azul);
+    color: #fff;
+    padding: 48px 0;
+  }
+
+  .experiencias-component *,
+  .experiencias-component *::before,
+  .experiencias-component *::after {
+    box-sizing: border-box;
+  }
+
+  .experiencias-component img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .experiencias-component .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .experiencias-component .title {
+    font-family: "Sora", "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .experiencias-component .card {
+    width: 100%;
+    border-radius: 30px;
+    background: var(--branco-amarelado);
+    padding: 32px 24px;
+    overflow: hidden;
+  }
+
+  .experiencias-component .card h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--azul);
+    text-align: center;
+  }
+
+  .experiencias-component .card .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .experiencias-component .day {
+    width: 100%;
+    border-radius: 30px;
+    background: #f0f0f1;
+    padding: 24px;
+  }
+
+  .experiencias-component .day p.day-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    line-height: 1.5;
+  }
+
+  .experiencias-component .slots {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .experiencias-component .slot {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--azul-escuro);
+  }
+
+  .experiencias-component .slot .time {
+    font-weight: 700;
+  }
+
+  .experiencias-component .logo-apagina {
+    margin-top: 4px;
+    height: 56px;
+    width: auto;
+  }
+
+  .experiencias-component .corrida {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    background: var(--branco-amarelado);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .experiencias-component .corrida .info {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 24px;
+    color: var(--azul);
+  }
+
+  .experiencias-component .corrida .info .head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .experiencias-component .corrida .info .head .h {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  .experiencias-component .corrida .info .head .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .experiencias-component .corrida .info .head .meta .italic {
+    font-style: italic;
+  }
+
+  .experiencias-component .corrida .info .details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--azul-escuro);
+  }
+
+  .experiencias-component .corrida .info .details strong {
+    font-weight: 700;
+  }
+
+  .experiencias-component .corrida .imgwrap {
+    position: relative;
+    height: 192px;
+  }
+
+  .experiencias-component .corrida .imgwrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .experiencias-component .corrida .imgwrap .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      var(--branco-amarelado) 0%,
+      rgba(250, 248, 236, 0) 55%
+    );
+  }
+
+  .experiencias-component .insider .stack {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .experiencias-component .insider p.muted {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--azul-escuro);
+  }
+
+  @media (min-width: 640px) {
+    .experiencias-component {
+      padding: 64px 0;
+    }
+
+    .experiencias-component .title {
+      font-size: 40px;
+    }
+
+    .experiencias-component .card {
+      padding: 40px 48px;
+    }
+
+    .experiencias-component .card h3 {
+      font-size: 30px;
+    }
+
+    .experiencias-component .day {
+      padding: 28px 40px;
+    }
+
+    .experiencias-component .day p.day-label {
+      font-size: 20px;
+    }
+
+    .experiencias-component .slot {
+      font-size: 16px;
+    }
+
+    .experiencias-component .logo-apagina {
+      height: 64px;
+    }
+
+    .experiencias-component .corrida .info {
+      padding: 40px 48px;
+    }
+
+    .experiencias-component .corrida .info .head .h {
+      font-size: 30px;
+    }
+
+    .experiencias-component .corrida .info .head .meta {
+      font-size: 16px;
+    }
+
+    .experiencias-component .corrida .info .details {
+      font-size: 16px;
+    }
+
+    .experiencias-component .insider p.muted {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .experiencias-component .corrida {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .experiencias-component .corrida .imgwrap {
+      height: auto;
+    }
+  }
+</style>
+
+<section class="experiencias-component" aria-label="Experiências CUPOLA Summit">
+  <div class="container">
+    <h2 class="title">Experiências CUPOLA Summit</h2>
+
+    <!-- Sessão de autógrafos -->
+    <div class="card">
+      <div class="inner">
+        <h3>Sessão de autógrafos na livraria</h3>
+
+        <div class="day">
+          <p class="day-label">Dia 01 | 21/05</p>
+
+          <div class="slots">
+            <div class="slot">
+              <p class="time">11h20 às 12h</p>
+              <p>Vendendo terrenos e colecionando histórias - Gustavo Feola</p>
+            </div>
+
+            <div class="slot">
+              <p class="time">19h20 às 20h</p>
+              <p>Coisa de Rico - Michel Alcoforado</p>
+            </div>
+
+            <div class="slot">
+              <p class="time">16h às 16h30</p>
+              <p>Vendas à prova de crise - Peixoto Accyoli</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="day">
+          <p class="day-label">Dia 02 | 22/05</p>
+
+          <div class="slots">
+            <div class="slot">
+              <p class="time">10h às 10h40</p>
+              <p>Lugar de potência - Ricardo Basaglia</p>
+            </div>
+
+            <div class="slot">
+              <p class="time">18h55 às 19h30</p>
+              <p>Vendas. Como faço? - Zé Noronha</p>
+            </div>
+          </div>
+        </div>
+
+        <img
+          class="logo-apagina"
+          src="https://cupolasummit.com.br/wp-content/uploads/2026/05/logo-a-pagina.webp"
+          alt="Logo A Página"
+        />
+      </div>
+    </div>
+
+    <!-- Corrida -->
+    <div class="corrida">
+      <div class="info">
+        <div class="head">
+          <p class="h">Corrida CUPOLA Summit</p>
+
+          <div class="meta">
+            <span>22/05</span>
+            <span>06h30</span>
+            <span class="italic">Parque Barigui</span>
+          </div>
+        </div>
+
+        <div class="details">
+          <p>
+            <strong>Largada:</strong>
+            Estacionamento do Pavilhão de Exposições
+          </p>
+
+          <p>
+            <strong>Percurso:</strong>
+            5km
+          </p>
+
+          <p>
+            <strong>Retirada dos kits:</strong>
+            durante o evento
+          </p>
+        </div>
+      </div>
+
+      <div class="imgwrap">
+        <img src="https://cupolasummit.com.br/wp-content/uploads/2026/05/corrida-image.webp" alt="Corrida CUPOLA Summit" />
+
+        <div class="overlay"></div>
+      </div>
+    </div>
+
+    <!-- Espaço Insider -->
+    <div class="card insider">
+      <div class="inner">
+        <h3>Espaço Insider</h3>
+
+        <p class="muted">
+          Um ambiente exclusivo para networking, troca de experiências e
+          conexões estratégicas durante o evento.
+        </p>
+
+        <div class="stack">
+          <div class="day">
+            <p class="day-label">Dia 01</p>
+
+            <div class="slots">
+              <div class="slot">
+                <p class="time">09h às 18h</p>
+                <p>Networking e ativações especiais</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="day">
+            <p class="day-label">Dia 02</p>
+
+            <div class="slots">
+              <div class="slot">
+                <p class="time">09h às 18h</p>
+                <p>Conexões e experiências exclusivas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

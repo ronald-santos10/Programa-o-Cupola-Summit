@@ -9,7 +9,9 @@
   <body>
     <div class="summit-schedule">
       <div class="schedule-controls">
-        <p class="schedule-instruction">Clique nos dias abaixo para mudar a programação</p>
+        <p class="schedule-instruction">
+          Clique nos dias abaixo para mudar a programação
+        </p>
 
         <div class="schedule-tabs" id="tabs-container">
           <!-- Tabs serão geradas dinamicamente -->
@@ -33,7 +35,17 @@
       </div>
     </div>
 
+    <div id="experiencias"></div>
+
     <script src="script.js"></script>
+
+    <script>
+      fetch("./experiencias.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("experiencias").innerHTML = data;
+        });
+    </script>
 
     <!-- AUTO HEIGHT IFRAME -->
     <script>
